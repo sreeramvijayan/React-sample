@@ -1,0 +1,19 @@
+.navbar-start{
+    display: flex;
+    justify-content: space-evenly;
+    background: #e9e8e8;
+    height: 60px;
+    align-items: center;
+}
+.navbar-item{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.button{
+    background: blue;
+    border: none;
+    width: 75px;
+    height: 40px;
+    color: white;
+}
