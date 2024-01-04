@@ -40,27 +40,27 @@ const Navbar = () => {
 
         <div className={`navbar-menu ${isOpen && "is-active"}`}>
           <div className="navbar-start">
-            <NavLink className="navbar-item" activeClassName="is-active" to="/">
+            <NavLink className="navbar-item" activeclassname="is-active" to="/">
               Home
             </NavLink>
-
+            {/* activeClassName */}
             <NavLink
               className="navbar-item"
-              activeClassName="is-active"
+              activeclassname="is-active"
               to="/about"
             >
               About
             </NavLink>
-
+            {/* activeClassName */}
             <NavLink
               className="navbar-item"
-              activeClassName="is-active"
+              activeclassname="is-active"
               to="/profile"
             >
               Profile
             </NavLink>
-            
-            <div className="buttons">
+            {/* activeClassName */}
+            {/* <div className="buttons">
                 {!isAuth ? (
                   <button className="button is-white" onClick={loginUser}>
                     Log in
@@ -70,10 +70,10 @@ const Navbar = () => {
                     Log out
                   </button>
                 )}
-              </div>
+              </div> */}
           </div>
 
-          {/* <div className="navbar-end">
+          <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
                 {!isAuth ? (
@@ -87,7 +87,7 @@ const Navbar = () => {
                 )}
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </nav>
